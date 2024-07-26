@@ -11,7 +11,7 @@ import SwiftUI
 struct RESTApi_PracticeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            PhotoView()
         }
     }
 }

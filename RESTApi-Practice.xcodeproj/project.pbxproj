@@ -8,17 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		04A66F792C540A1B00DB4E40 /* RESTApi_PracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A66F782C540A1B00DB4E40 /* RESTApi_PracticeApp.swift */; };
-		04A66F7B2C540A1B00DB4E40 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A66F7A2C540A1B00DB4E40 /* ContentView.swift */; };
+		04A66F7B2C540A1B00DB4E40 /* PhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A66F7A2C540A1B00DB4E40 /* PhotoView.swift */; };
 		04A66F7D2C540A1C00DB4E40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04A66F7C2C540A1C00DB4E40 /* Assets.xcassets */; };
 		04A66F802C540A1C00DB4E40 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04A66F7F2C540A1C00DB4E40 /* Preview Assets.xcassets */; };
+		04A66F872C540A7C00DB4E40 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A66F862C540A7C00DB4E40 /* Model.swift */; };
+		04A66F892C540AB200DB4E40 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A66F882C540AB200DB4E40 /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		04A66F752C540A1B00DB4E40 /* RESTApi-Practice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RESTApi-Practice.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		04A66F782C540A1B00DB4E40 /* RESTApi_PracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RESTApi_PracticeApp.swift; sourceTree = "<group>"; };
-		04A66F7A2C540A1B00DB4E40 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		04A66F7A2C540A1B00DB4E40 /* PhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoView.swift; sourceTree = "<group>"; };
 		04A66F7C2C540A1C00DB4E40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04A66F7F2C540A1C00DB4E40 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		04A66F862C540A7C00DB4E40 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		04A66F882C540AB200DB4E40 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +56,9 @@
 			isa = PBXGroup;
 			children = (
 				04A66F782C540A1B00DB4E40 /* RESTApi_PracticeApp.swift */,
-				04A66F7A2C540A1B00DB4E40 /* ContentView.swift */,
+				04A66F7A2C540A1B00DB4E40 /* PhotoView.swift */,
+				04A66F862C540A7C00DB4E40 /* Model.swift */,
+				04A66F882C540AB200DB4E40 /* NetworkManager.swift */,
 				04A66F7C2C540A1C00DB4E40 /* Assets.xcassets */,
 				04A66F7E2C540A1C00DB4E40 /* Preview Content */,
 			);
@@ -137,7 +143,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04A66F7B2C540A1B00DB4E40 /* ContentView.swift in Sources */,
+				04A66F892C540AB200DB4E40 /* NetworkManager.swift in Sources */,
+				04A66F872C540A7C00DB4E40 /* Model.swift in Sources */,
+				04A66F7B2C540A1B00DB4E40 /* PhotoView.swift in Sources */,
 				04A66F792C540A1B00DB4E40 /* RESTApi_PracticeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
